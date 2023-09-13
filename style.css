@@ -1,0 +1,142 @@
+ *{
+    margin: 0px;
+    background-color: black;
+    background-image: url(imagens/fundopp.svg);
+    color: aliceblue;
+    font-family: "inter";
+ }
+ 
+#logo{
+  margin: 50px;
+ }
+
+ #titulo-alto{
+    margin-left: 80px;
+ }
+ 
+ #titulo-alto{
+    margin-left: 80px;
+    margin-top: 25px;
+    padding-bottom: 25px;
+ }
+
+ #menuinformacional{
+  background-color:white;
+   display:grid;
+  grid-auto-flow: column ;
+  columns: auto;
+ }
+   
+
+
+   #secaovideo{
+      display: grid;
+      grid-auto-flow:column ;
+      columns: auto;
+
+}
+
+ .icones{
+  margin: 50px 50px 0px 100px;
+ }
+
+ .textoinformativo{
+  display: 50px 100px 400px 200px; 
+
+ }
+
+ #video{
+   margin: 50px 25px 25px 100px;
+ }
+
+ #titulovideos{
+  margin:  50px 2px 50px 100px; 
+ }
+
+ #textovideo{
+  margin:  0px 2px 50px 100px;
+ }
+
+ #carrosel{
+   background-color: #247BA0;
+   padding: 100px
+ }
+
+ #titlecarrossel{
+   color: white;
+   text-align:center;
+   font-size: 32px;
+ }
+
+ #div-cards{
+    display: grid;
+    grid-auto-flow: column;
+ }
+
+ .card{
+  margin: 50px 100px 100px 50px;
+ }
+
+ #setaesquerda{
+  display: none;
+  margin-left: 55px;
+  margin-top: 85px;
+ }
+
+ #setadireita{
+   margin-right: 95px;
+   margin-top: 65px;
+ }
+
+ #bruna{
+  display:none;
+ }
+
+ .seta {
+   cursor: pointer;
+ }
+
+ .seta:hover{
+   transform:translateY(-7px);
+   transition-duration: 0.5s;
+ }
+
+ #formulario{
+    text-align: center;
+ }
+
+ #titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+ }
+
+ input{
+  width: 300px;
+  height: 30px;
+  top: 1751px;
+  left: 531px;
+  background-color: #EAECE5;
+  margin: 15px;
+  border-color: white;
+  border-radius: 5px;
+
+ }
+
+button{
+  width: 250px;
+  height: 40px;
+  top: 2000px;
+  left: 570px;
+  border-radius: 5px;
+  border-color: white;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+
+button:hover{
+  transform:translateY(-7px);
+   transition-duration: 0.5s;
+   box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.416);
+}
